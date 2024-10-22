@@ -1,0 +1,515 @@
+<template>
+  	<div :class="$style.sidebar">
+    		<div :class="$style.main">
+      			<div :class="$style.topParent">
+        				<div :class="$style.top">
+          					<div :class="$style.logo">
+            						<div :class="$style.techoPay">Techo Pay</div>
+          					</div>
+          					<div :class="$style.expandIcon">
+            						<img :class="$style.iconsolidchevronLeft" alt="" src="Icon/Solid/chevron-left.svg" />
+          					</div>
+        				</div>
+        				<div :class="$style.lineParent">
+          					<div :class="$style.frameChild" />
+          					<div :class="$style.navParent">
+            						<div :class="$style.nav">
+              							<div :class="$style.navItem1">
+                								<div :class="$style.inner">
+                  									<div :class="$style.icon">
+                    										<img :class="$style.icon1" alt="" src="Icon.svg" />
+                  									</div>
+                  									<div :class="$style.label">Dashboard</div>
+                								</div>
+              							</div>
+              							<div :class="$style.navItem2">
+                								<div :class="$style.inner1">
+                  									<img :class="$style.userIcon" alt="" src="user.svg" />
+                  									<div :class="$style.label1">Profile</div>
+                  									<div :class="$style.badge" />
+                								</div>
+              							</div>
+              							<div :class="$style.navItem2">
+                								<div :class="$style.inner1">
+                  									<div :class="$style.icon2">
+                    										<img :class="$style.icon3" alt="" src="Icon.svg" />
+                  									</div>
+                  									<div :class="$style.label1">Transactions</div>
+                  									<div :class="$style.badge1" />
+                								</div>
+              							</div>
+            						</div>
+            						<div :class="$style.nav">
+              							<div :class="$style.navItem2">
+                								<div :class="$style.inner1">
+                  									<div :class="$style.icon2">
+                    										<img :class="$style.icon3" alt="" src="Icon.svg" />
+                  									</div>
+                  									<div :class="$style.label1">Notifications</div>
+                  									<div :class="$style.badge1" />
+                								</div>
+              							</div>
+              							<div :class="$style.navItem2">
+                								<div :class="$style.inner1">
+                  									<div :class="$style.icon2">
+                    										<img :class="$style.icon3" alt="" src="Icon.svg" />
+                  									</div>
+                  									<div :class="$style.label1">Report an Issue</div>
+                  									<div :class="$style.badge" />
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div :class="$style.upgradeHero">
+      			<div :class="$style.upgrade">
+        				<div :class="$style.backgroundParent">
+          					<img :class="$style.backgroundIcon" alt="" src="Background.svg" />
+          					<div :class="$style.buttonbase">
+            						<div :class="$style.widthStructure">
+              							<div :class="$style.heightStructure">
+                								<div :class="$style.buttonBody">
+                  									<div :class="$style.icon8">
+                    										<div :class="$style.div"></div>
+                  									</div>
+                  									<div :class="$style.text">Upgrade for Free</div>
+                  									<div :class="$style.icon8">
+                    										<div :class="$style.div"></div>
+                  									</div>
+                								</div>
+              							</div>
+              							<div :class="$style.minwidth">
+                								<div :class="$style.content" />
+              							</div>
+            						</div>
+          					</div>
+          					<div :class="$style.increaseYourSales">Increase your sales by using special features of Enterprise Membership.</div>
+          					<b :class="$style.upgradeToEnterpriseContainer">
+            						<p :class="$style.upgradeTo">Upgrade to </p>
+            						<p :class="$style.upgradeTo">Enterprise Account!</p>
+          					</b>
+        				</div>
+      			</div>
+    		</div>
+    		<div :class="$style.navItem9">
+      			<div :class="$style.inner1">
+        				<div :class="$style.icon2">
+          					<img :class="$style.icons" alt="" src="Icons.svg" />
+        				</div>
+        				<div :class="$style.text1">Logout</div>
+        				<div :class="$style.badge" />
+      			</div>
+    		</div>
+  	</div>
+</template>
+<script lang="ts">
+  	import { defineComponent } from 'vue'
+  	
+  	
+  	export default defineComponent({
+    		name: "Sidebar"})</script><style module>.techoPay {
+    		position: relative;
+    		line-height: 140%;
+    		font-weight: 900;
+  	}
+    		.logo {
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			z-index: 0;
+    		}
+    		.iconsolidchevronLeft {
+      			width: 16px;
+      			position: relative;
+      			height: 16px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+    		}
+    		.expandIcon {
+      			margin: 0 !important;
+      			position: absolute;
+      			top: 27px;
+      			right: -13px;
+      			border-radius: 99px;
+      			background-color: #fff;
+      			border: 1px solid #e2e8f0;
+      			display: none;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 4px;
+      			z-index: 1;
+    		}
+    		.top {
+      			align-self: stretch;
+      			border-bottom: 1px solid rgba(0, 134, 222, 0.1);
+      			box-sizing: border-box;
+      			height: 71px;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 35px 24px 24px;
+      			position: relative;
+      			gap: 12px;
+    		}
+    		.frameChild {
+      			width: 281px;
+      			position: relative;
+      			border-top: 1px solid #e2e8f0;
+      			box-sizing: border-box;
+      			height: 1px;
+      			display: none;
+    		}
+    		.icon1 {
+      			width: 20px;
+      			position: relative;
+      			height: 20px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+    		}
+    		.icon {
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+    		}
+    		.label {
+      			align-self: stretch;
+      			flex: 1;
+      			position: relative;
+      			line-height: 20px;
+      			font-weight: 600;
+      			display: flex;
+      			align-items: center;
+    		}
+    		.inner {
+      			flex: 1;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			gap: 12px;
+    		}
+    		.navItem1 {
+      			align-self: stretch;
+      			border-radius: 8px;
+      			background-color: rgba(0, 134, 222, 0.1);
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 12px 16px;
+      			font-size: 20px;
+      			color: #00f17d;
+    		}
+    		.userIcon {
+      			width: 24px;
+      			position: relative;
+      			height: 24px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+      			z-index: 0;
+    		}
+    		.label1 {
+      			align-self: stretch;
+      			flex: 1;
+      			position: relative;
+      			line-height: 20px;
+      			display: flex;
+      			align-items: center;
+      			z-index: 1;
+    		}
+    		.badge {
+      			width: 8px;
+      			margin: 0 !important;
+      			position: absolute;
+      			top: 13px;
+      			left: -1px;
+      			border-radius: 99px;
+      			background-color: #f97316;
+      			border: 1px solid #fff;
+      			box-sizing: border-box;
+      			height: 8px;
+      			display: none;
+      			z-index: 2;
+    		}
+    		.inner1 {
+      			flex: 1;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			position: relative;
+      			gap: 12px;
+    		}
+    		.navItem2 {
+      			align-self: stretch;
+      			border-radius: 99px;
+      			height: 44px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 12px 16px;
+      			box-sizing: border-box;
+    		}
+    		.icon3 {
+      			width: 24px;
+      			position: relative;
+      			height: 24px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+    		}
+    		.icon2 {
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			z-index: 0;
+    		}
+    		.badge1 {
+      			width: 8px;
+      			margin: 0 !important;
+      			position: absolute;
+      			top: 13px;
+      			left: -1px;
+      			border-radius: 99px;
+      			background-color: #00f17d;
+      			border: 1px solid #fff;
+      			box-sizing: border-box;
+      			height: 8px;
+      			z-index: 2;
+    		}
+    		.nav {
+      			align-self: stretch;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			padding: 0px 24px;
+      			gap: 4px;
+    		}
+    		.navParent {
+      			align-self: stretch;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			gap: 24px;
+    		}
+    		.lineParent {
+      			align-self: stretch;
+      			height: 282px;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: flex-start;
+      			justify-content: center;
+      			gap: 20px;
+      			font-size: 16px;
+      			color: #201c38;
+    		}
+    		.topParent {
+      			align-self: stretch;
+      			height: 645px;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			gap: 20px;
+    		}
+    		.main {
+      			align-self: stretch;
+      			height: 645px;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: center;
+      			justify-content: flex-start;
+      			z-index: 2;
+    		}
+    		.backgroundIcon {
+      			position: absolute;
+      			top: 0px;
+      			left: 0px;
+      			width: 218px;
+      			height: 195px;
+    		}
+    		.div {
+      			position: relative;
+      			line-height: 12px;
+    		}
+    		.icon8 {
+      			overflow: hidden;
+      			display: none;
+      			flex-direction: column;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 0px 0.5px;
+    		}
+    		.text {
+      			position: relative;
+      			font-size: 14px;
+      			line-height: 150%;
+      			font-weight: 600;
+      			font-family: 'Source Sans Pro';
+      			color: #201c38;
+    		}
+    		.buttonBody {
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			gap: 4px;
+    		}
+    		.heightStructure {
+      			height: 24px;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+    		}
+    		.content {
+      			width: 0px;
+      			position: relative;
+      			background-color: #c3c3c3;
+      			height: 0px;
+    		}
+    		.minwidth {
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-start;
+      			justify-content: flex-start;
+      			padding: 0px 12px;
+    		}
+    		.widthStructure {
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: center;
+      			justify-content: center;
+    		}
+    		.buttonbase {
+      			position: absolute;
+      			height: 17.95%;
+      			width: 85.32%;
+      			top: 72.31%;
+      			right: 7.34%;
+      			bottom: 9.74%;
+      			left: 7.34%;
+      			border-radius: 12px;
+      			background-color: #fff;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: center;
+      			padding: 0px 8px;
+      			box-sizing: border-box;
+      			font-family: 'Font Awesome 5 Free';
+    		}
+    		.increaseYourSales {
+      			position: absolute;
+      			top: 66px;
+      			left: 16px;
+      			font-size: 13px;
+      			letter-spacing: 0.02em;
+      			line-height: 20px;
+      			font-weight: 600;
+      			color: #fefefe;
+      			display: inline-block;
+      			width: 186px;
+      			height: 60px;
+    		}
+    		.upgradeTo {
+      			margin: 0;
+    		}
+    		.upgradeToEnterpriseContainer {
+      			position: absolute;
+      			top: 16px;
+      			left: 17px;
+      			font-size: 15px;
+      			letter-spacing: 0.02em;
+      			display: inline-block;
+      			color: #fff;
+      			width: 185px;
+    		}
+    		.backgroundParent {
+      			width: 218px;
+      			position: relative;
+      			height: 195px;
+    		}
+    		.upgrade {
+      			flex: 1;
+      			height: 213px;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: center;
+      			justify-content: flex-start;
+    		}
+    		.upgradeHero {
+      			align-self: stretch;
+      			height: 205px;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: flex-end;
+      			justify-content: center;
+      			padding: 0px 24px;
+      			box-sizing: border-box;
+      			z-index: 1;
+      			text-align: center;
+      			font-size: 11px;
+      			color: #000;
+    		}
+    		.icons {
+      			width: 24px;
+      			position: relative;
+      			height: 24px;
+    		}
+    		.text1 {
+      			position: relative;
+      			line-height: 140%;
+      			z-index: 1;
+    		}
+    		.navItem9 {
+      			width: 232px;
+      			border-radius: 99px;
+      			height: 31px;
+      			overflow: hidden;
+      			flex-shrink: 0;
+      			display: flex;
+      			flex-direction: row;
+      			align-items: center;
+      			justify-content: flex-start;
+      			padding: 12px 16px;
+      			box-sizing: border-box;
+      			z-index: 0;
+      			font-size: 16px;
+      			color: #fe6a69;
+      			font-family: 'Open Sans';
+    		}
+    		.sidebar {
+      			width: 100%;
+      			position: relative;
+      			background-color: #fefefe;
+      			height: 1024px;
+      			overflow: hidden;
+      			display: flex;
+      			flex-direction: column;
+      			align-items: center;
+      			justify-content: flex-start;
+      			gap: 21px;
+      			text-align: left;
+      			font-size: 24px;
+      			color: #00f17d;
+      			font-family: 'Source Sans Pro';
+    		}
+  	
+  	</style>
